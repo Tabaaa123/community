@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Community</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/222cea3eed.js"></script>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar__top">
+            <div class="sidebar__profile">
+                <div>
+                    <span class="status"></span>
+                    <img src="images/Ana.jpg" alt="avatar" />
+                </div>
+                <div class="sidebar__profileInfo">
+                    <h3>Tabaaa </h3>
+                    <p>Online</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__users">
+            <div class="sidebar__usersHeader">
+
+                <i class="fas fa-user-friends fa-lg"> <span>Friends</span> </i>
+                <i class="fas fa-user-plus fa-lg"></i>
+            </div>
+            <div class="sidebar__usersHeader">
+                <div class="sidebar__header">
+                    <h4>Online (3)</h4>
+                </div>
+            </div>
+            <div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/server3.jpg" alt="avatar" />
+                    </div>
+                    <h4>Miming</h4>
+                </div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/user2.jpg" alt="avatar" />
+                    </div>
+                    <h4>Gamer girl</h4>
+                </div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/Frankie.jpg" alt="avatar" />
+                    </div>
+                    <h4>Anonymus Invictus</h4>
+                </div>
+                <h4>Offline (1)</h4>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="offline"></span>
+                        <img src="images/server2.jpg" alt="avatar" />
+                    </div>
+                    <h4>Emo</h4>
+                </div>
+                <section>
+                    <h4>Group Chats </h4>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat">
+        <div>
+            <div class="chatHeader">
+                <div class="chatHeader__left">
+                    <span class="chatHeader__Dm">@</span>
+                    <h3>Anonymus Invictus
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="chat__messages">
+            <div class="message">
+                <img src="images/Frankie.jpg" alt="avatar">
+                <div class="message__info">
+                    <h4>Anonymus Invictus
+                        <span class="message__timestamp">04/28/2022</span>
+                    </h4>
+                    <p>Hello</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat__input">
+            <i class="fas fa-plus-circle fa-lg"></i>
+            <form>
+                <input class="sendMessage" type="text" placeholder="send message">
+                <button class="chat__inputButton" type="submit">Send</button>
+            </form>
+            <div class="chat__inputIcons">
+                <i class="fas fa-gift fa-lg"></i>
+                <i class="fas fa-file-image fa-lg"></i>
+                <i class="fas fa-laugh fa-lg"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
